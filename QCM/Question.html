@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+	
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+				<li><a href="Spécialités.html">Spécialités </a></li>
+				<li><a href="QCM.html">QCM </a></li>
+				<li><a href="login.html">login </a></li>
+				<li><a href="result.html">result </a></li>
+				<li><a href="Question.html">Question </a></li>
+				<li><a href="inscription.html">inscription </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	
+	
+	<h2>Create Questions</h2>
+
+<form action="" method="post">
+	<div class="form-horizontal">
+		
+		<hr />
+		
+		<div class="form-group">
+			<label class="control-label col-md-2" for="IdUser">Id Questions</label>
+			<div class="col-md-10">
+				<input class="form-control text-box single-line" data-val="true" data-val-number="The field Id Utilisateur must be a number." type="number" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="IdUser" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="control-label col-md-2" for="Description">Description </label>
+			<div class="col-md-10">
+				<textarea cols="20" htmlAttributes="{ class = text-info }" id="Description" name="Description" rows="2">
+                                 </textarea>
+				<span class="field-validation-valid text-danger" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+
+			<div class="form-group">
+			<label class="control-label col-md-2" for="direction">Spécialités</label>
+			<div class="col-md-10">
+				<select data-val="true"  id="" name=""><option value="">Selectionner la Spécialités</option>
+<option value="1">SI</option>
+<option value="2">BDD</option>
+<option value="3">ALGO</option>
+<option value="4">RESEAU</option>
+<option value="5">WEB</option>
+</select>
+				<span class="field-validation-valid text-danger"  data-valmsg-replace="true"></span>
+			</div>
+		</div>
+ <hr/>
+ <h3>Ajouter Réponses</h3>
+ 
+ <b><p style="aligne:centre"> Cocher les Réponses correcet : </p></b>
+ <div class="form-group">
+			<label class="control-label col-md-2" for="Objet">Réponce 1 :</label>
+			<div class="col-md-10">
+			<input id="R1" type = "checkbox" />	<input class="form-control text-box single-line" id="" name="Objet" type="text" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="Objet" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-2" for="IdUser">Note</label>
+			<div class="col-md-10">
+				<input class="form-control text-box single-line" data-val="true" type="number" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="IdUser" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<hr/>
+		
+		<div class="form-group">
+			<label class="control-label col-md-2" for="Objet">Réponce 2 :</label>
+			<div class="col-md-10">
+			<input id="R1" type = "checkbox" />
+				<input class="form-control text-box single-line" id="Objet" name="Objet" type="text" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="Objet" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-2" for="IdUser">Note</label>
+			<div class="col-md-10">
+				<input class="form-control text-box single-line" data-val="true"  type="number" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="IdUser" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<hr/>
+		
+		<div class="form-group">
+			<label class="control-label col-md-2" for="Objet">Réponce 3 :</label>
+			<div class="col-md-10">
+			<input id="R1" type = "checkbox" />
+				<input class="form-control text-box single-line" id="Objet" name="Objet" type="text" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="Objet" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-2" for="">Note</label>
+			<div class="col-md-10">
+				<input class="form-control text-box single-line" data-val="true" type="number" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="IdUser" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<hr/>
+		
+		<div class="form-group">
+			<label class="control-label col-md-2" >Réponce 4 :</label>
+			<div class="col-md-10">
+			<input id="R1" type = "checkbox" />
+				<input class="form-control text-box single-line" id="" name="" type="text" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="Objet" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+ <div class="form-group">
+			<label class="control-label col-md-2">Note</label>
+			<div class="col-md-10">
+				<input class="form-control text-box single-line" data-val="true"  type="number" value="" />
+				<span class="field-validation-valid text-danger" data-valmsg-for="IdUser" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<hr/>
+ 
+		<div class="form-group">
+			<div class="col-md-offset-2 col-md-10">
+				<input type="submit" value="Create" class="btn btn-default" />
+			</div>
+		</div>
+	</div>
+</form>
+	
+	
+	
+
+
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
